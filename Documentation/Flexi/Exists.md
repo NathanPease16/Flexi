@@ -1,4 +1,4 @@
-# Flexi : Exists
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : Exists
 ## Declaration
 ```cs
 public static bool Exists(int id)
