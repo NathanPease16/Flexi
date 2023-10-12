@@ -1,7 +1,7 @@
 # FlexiOperations : ColorDist
 ## Declaration
 ```cs
-public static float ColorOp(Color a, Color b, float t)
+public static float ColorDist(Color a, Color b, float t)
 ```
 
 ## Parameters
