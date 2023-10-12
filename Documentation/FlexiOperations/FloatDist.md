@@ -1,17 +1,17 @@
-# FlexiOperations : IntOp
+# FlexiOperations : floatDist
 ## Declaration
 ```cs
-public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b, t);
+public static float floatOp(float a, float b, float t)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| a | int | The first int |
-| b | int | The second int |
-| t | float | Interpolation value |
+| a | float | The first float |
+| b | float | The second float |
 
 ## Returns
-The interpolated value
+The distance between the two floats
 
 ## Description
+Calculates and returns the distance between `a` and `b`
