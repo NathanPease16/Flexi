@@ -1,4 +1,4 @@
-# FlexiOperations : ColorOp
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : ColorOp
 ## Declaration
 ```cs
 public static Color ColorOp(Color a, Color b, float t)
