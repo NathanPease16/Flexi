@@ -1,5 +1,4 @@
 # Flexi Documentation
-Main class for executing and performing operations on interpolations
 
 ## Public Delegates
 | Delegate | Declaration | Description |
@@ -28,3 +27,6 @@ Main class for executing and performing operations on interpolations
 | Pause | void | Pauses the interpolation with ID `id` |
 | Resume | void | Resumes the interpolation with ID `id` |
 | Cancel | void | Cancels the interpolation with ID `id` |
+
+## Description
+Handles the starting, stopping, and pausing of interpolations. Interpolations are represented as an array of [FlexiKeyFrames](../FlexiKeyFrame/FlexiKeyFrame.md) that are iterated through in a coroutine
