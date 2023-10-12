@@ -1,7 +1,7 @@
 # FlexiOperations : QuaternionDist
 ## Declaration
 ```cs
-public static float QuaternionOp(Quaternion a, Quaternion b, float t)
+public static float QuaternionDist(Quaternion a, Quaternion b, float t)
 ```
 
 ## Parameters
