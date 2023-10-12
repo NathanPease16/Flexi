@@ -13,7 +13,7 @@ public static int InterpolateQuaternion<T>(T target, string property, Quaternion
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | FlexiKeyFrame<Quaternion>[] | The key frames to interpolate between |
+| keyFrames | FlexiKeyFrame\<Quaternion>[] | The key frames to interpolate between |
 | initial | Quaternion | The initial value of the interpolaiton |
 | final | Quaternion | The final value of the interpolation |
 | time | float | The length of the interpolation |
