@@ -1,4 +1,4 @@
-# FlexiCurves Documentation
+# [Flexi](../Docs.md) : FlexiCurves
 
 ## Public Fields
 | Property | Type | Description |
