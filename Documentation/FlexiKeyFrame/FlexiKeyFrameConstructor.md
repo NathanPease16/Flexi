@@ -1,4 +1,4 @@
-# FlexiKeyFrame\<T> : Constructor
+# [Flexi](../Docs.md) : [FlexiKeyFrame\<T>](FlexiKeyFrame.md) : Constructor
 ## Declaration
 ```cs
 public FlexiKeyFrame(T value, float timeToNextKeyFrame=0f, AnimationCurve curve=null, Rate rate=Rate.time, FlexiEvent[] events=null)
