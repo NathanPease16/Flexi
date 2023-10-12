@@ -1,4 +1,4 @@
-# Flexi : InterpolateQuaternion\<T>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateQuaternion\<T>
 ## Declaration #1
 ```cs
 public static int InterpolateQuaternion<T>(T target, string property, FlexiKeyFrame<Quaternion>[] keyFrames)
