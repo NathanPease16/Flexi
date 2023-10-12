@@ -13,7 +13,7 @@ public static int InterpolateInt<T>(T target, string property, int initial, int 
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | FlexiKeyFrame<int>[] | The key frames to interpolate between |
+| keyFrames | FlexiKeyFrame\<int>[] | The key frames to interpolate between |
 | initial | int | The initial value of the interpolaiton |
 | final | int | The final value of the interpolation |
 | time | float | The length of the interpolation |
