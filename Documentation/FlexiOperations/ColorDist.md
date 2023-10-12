@@ -1,4 +1,4 @@
-# FlexiOperations : ColorDist
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : ColorDist
 ## Declaration
 ```cs
 public static float ColorDist(Color a, Color b, float t)
