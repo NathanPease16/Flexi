@@ -1,4 +1,4 @@
-# FlexiEvent : Constructor
+# [Flexi](../Docs.md) : [FlexiEvent](FlexiEvent.md) : Constructor
 ## Declaration
 ```cs
 public FlexiEvent(float invocationPercentage)
