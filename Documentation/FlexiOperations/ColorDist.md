@@ -1,15 +1,15 @@
-# FlexiOperations : IntOp
+# FlexiOperations : ColorOp
 ## Declaration
 ```cs
-public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b, t);
+public static Color ColorOp(Color a, Color b, float t)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| a | int | The first int |
-| b | int | The second int |
-| t | float | Interpolation value |
+| a | Color | The first Color |
+| b | Color | The second Color |
+| t | float | Colorerpolation value |
 
 ## Returns
 The interpolated value
