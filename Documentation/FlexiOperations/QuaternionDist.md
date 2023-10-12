@@ -1,17 +1,17 @@
-# FlexiOperations : IntOp
+# FlexiOperations : QuaternionDist
 ## Declaration
 ```cs
-public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b, t);
+public static float QuaternionOp(Quaternion a, Quaternion b, float t)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| a | int | The first int |
-| b | int | The second int |
-| t | float | Interpolation value |
+| a | Quaternion | The first Quaternion |
+| b | Quaternion | The second Quaternion |
 
 ## Returns
-The interpolated value
+The distance between the two Quaternions
 
 ## Description
+Calculates and returns the distance between `a` and `b`
