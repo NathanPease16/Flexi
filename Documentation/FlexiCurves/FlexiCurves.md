@@ -1,5 +1,4 @@
 # FlexiCurves Documentation
-Stores pre-defined movement curves for ease of use
 
 ## Public Fields
 | Property | Type | Description |
@@ -13,3 +12,8 @@ Stores pre-defined movement curves for ease of use
 | easeIn | AnimationCurve | Eases into a linear line towards 1 |
 | easeOut | AnimationCurve | Eases out of a linear line towards 1 |
 | easeInOut| AnimationCurve | Eases into and out of a linear line towards 1 |
+
+## Description
+Stores pre-defined movement curves for ease of use
+
+When applied to an interpolation, the curve will be evaluted at the interpolation's current completion percentage (0.0f - 1.0f) and used as `t` in all [FlexiOperations](../FlexiOperations/FlexiOperations.md)
