@@ -1,4 +1,4 @@
-# Flexi : Pause
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : Pause
 ## Declaration
 ```cs
 public static void Pause(int id)
