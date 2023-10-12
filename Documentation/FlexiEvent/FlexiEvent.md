@@ -9,6 +9,7 @@
 | Method | Return Type | Description |
 | - | - | - |
 | [Invoke](Invoke.md) | void | Invokes the FlexiEvent if `percentage` is greater than or equal to the invocation percentage |
+| [Uninvoke](Uninvoke.md) | void | Uninvokes the event |
 
 ## Static Methods
 | Method | Return Type | Description |
