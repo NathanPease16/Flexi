@@ -1,6 +1,20 @@
 # FlexiEvent Documentation
-	C# Event implementation for use with Flexi interpolations
+C# Event implementation for use with Flexi interpolations
 
-## Public Properties
-| Property | Type | Description |
+## Constructors
+| Constructor | Description |
+| [FlexiEvent](FlexiEvent.md#Constructors) | Constructs a new FlexiEvent invoked at invocationPercentage percent through the interpolation |
+
+## Constructors
+```cs
+public FlexiEvent(float invocationPercentage)
+```
+| Parameter | Type | Description |
 | - | - | - |
+| invocationPercentage | float | The percentage through the interpolation key frame when the event should be invoked |
+
+### Returns
+The newly constructed FlexiEvent object
+
+### Description
+Creates a new FlexiEvent object with the specified invocation percentage value
