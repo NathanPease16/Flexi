@@ -22,4 +22,4 @@
 ## Description
 Stores data for key frames in an interpolation. 
 
-When evaluated in the interpolation, all key frames will be represented as an array of FlexiKeyFrames. Similarly to a Unity animation, it will traverse through each key frame in the array (excluding the last key frame) and interpolate between the current and next key frame using the current key frame's `TimeTonextKeyFrame`, `Curve`, `Rate`, and `Event` properties
+When evaluated in the interpolation, all key frames will be represented as an array of FlexiKeyFrames. Similarly to a Unity animation, it will traverse through each key frame in the array (excluding the last key frame) and interpolate between the current and next key frame using the current key frame's `TimeTonextKeyFrame`, `Curve`, `Rate`, and `Event` properties. Time is relative for each key frame in the interpolation
