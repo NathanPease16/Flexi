@@ -1,4 +1,4 @@
-# FlexiKeyFrame\<T> Documentation
+# [Flexi](../Docs.md) : FlexiKeyFrame\<T>
 
 ## Public Properties
 | Property | Type | Description |
