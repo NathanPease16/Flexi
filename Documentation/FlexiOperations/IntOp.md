@@ -1,7 +1,7 @@
-# FlexiOperations : IntOp
+# FlexiOperations : intOp
 ## Declaration
 ```cs
-public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b, t);
+public static int intOp(int a, int b, float t)
 ```
 
 ## Parameters
@@ -15,3 +15,4 @@ public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b,
 The interpolated value
 
 ## Description
+Calculates and returns the linear interpolation between `a` and `b` in regards to `t`
