@@ -1,4 +1,4 @@
-# Flexi : InterpolateVector3\<T>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateVector3\<T>
 ## Declaration #1
 ```cs
 public static int InterpolateVector3<T>(T target, string property, FlexiKeyFrame<Vector3>[] keyFrames)
