@@ -1,4 +1,4 @@
-# FlexiOperations : floatOp
+# FlexiOperations : FloatOp
 ## Declaration
 ```cs
 public static float floatOp(float a, float b, float t)
