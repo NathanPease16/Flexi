@@ -8,8 +8,8 @@ Flexi is a lightweight interpolation package designed to be the optimized, featu
 - 9 pre-defined movement curves
   - linear, quadratic, cubic, bouncing, overshoot, recovery, ease-in, ease-out, ease-in-out
 - Support for custom movement curves
-- 2 movement types
-  - speed, rate
+- 2 rate types
+  - time, speed
 - Pausing, resuming, and canceling interpolations
 - Interpolation events
 - Interpolation key frames
