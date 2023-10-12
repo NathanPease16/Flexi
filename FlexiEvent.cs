@@ -2,7 +2,7 @@ using System;
 
 public class FlexiEvent
 {
-    public event Action _flexiEvent;
+    private event Action _flexiEvent;
     private float _invocationPercentage; 
     private bool _invoked;
 
