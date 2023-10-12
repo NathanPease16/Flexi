@@ -14,4 +14,4 @@ public FlexiKeyFrame(T value, float timeToNextKeyFrame=0f, AnimationCurve curve=
 | events | [FlexiEvent](../FlexiEvent/FlexiEvent.md)[] | All events to be called during this key frame |
 
 ## Description
-Creates a new FlexiKeyFrame object
+Creates a new FlexiKeyFrame object. `curve` can be a pre-defined curve in [FlexiCurves](../FlexiCurves/FlexiCurves.md), or your own custom curve
