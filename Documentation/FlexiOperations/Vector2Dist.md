@@ -1,7 +1,7 @@
 # FlexiOperations : Vector2Dist
 ## Declaration
 ```cs
-public static float Vector2Op(Vector2 a, Vector2 b, float t)
+public static float Vector2Dist(Vector2 a, Vector2 b, float t)
 ```
 
 ## Parameters
