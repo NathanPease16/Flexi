@@ -1,4 +1,4 @@
-# Flexi : InterpolateColor\<T>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateColor\<T>
 ## Declaration #1
 ```cs
 public static int InterpolateColor<T>(T target, string property, FlexiKeyFrame<Color>[] keyFrames)
