@@ -1,4 +1,4 @@
-# [Flexi](..Docs.md) : Flexi
+# [Flexi](../Docs.md) : Flexi
 
 ## Public Delegates
 | Delegate | Declaration | Description |
