@@ -1,4 +1,4 @@
-# FlexiEvent Documentation
+# [Flexi](../Docs.md) : FlexiEvent
 
 ## Public Constructors
 | Constructor | Description |
