@@ -1,4 +1,4 @@
-# FlexiKeyFrame\<T> : CreatePair\<Q>
+# [Flexi](../Docs.md) : [FlexiKeyFrame\<T>](FlexiKeyFrame.md) : CreatePair\<Q>
 ## Declaration
 ```cs
 public static FlexiKeyFrame<Q>[] CreatePair<Q>(Q initial, Q final, float time, AnimationCurve curve=null, Rate rate=Rate.time, FlexiEvent[] events=null)
