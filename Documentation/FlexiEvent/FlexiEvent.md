@@ -1,10 +1,9 @@
 # FlexiEvent Documentation
-C# Event implementation for use with Flexi interpolations
 
 ## Public Constructors
 | Constructor | Description |
 | - | - |
-| [FlexiEvent](FlexiEventConstructor.md) | Constructs a new FlexiEvent invoked at invocationPercentage percent through the interpolation |
+| [FlexiEvent](FlexiEventConstructor.md) | Constructs a new FlexiEvent object |
 
 ## Public Methods
 | Method | Return Type | Description |
@@ -22,3 +21,5 @@ C# Event implementation for use with Flexi interpolations
 | [+](+.md) | Action | Adds a new action as a subscriber to the FlexiEvent |
 | [-](-.md) | Action | Unsubscribes the Action from the FlexiEvent |
 
+## Description
+FlexiEvents allow you to invoke events during an interpolation. Once the interpolation between two key frames reaches `invocationPercentage` percent completion (0.0f - 1.0f), the event will be invoked. After it is invoked, it will no longer be invoked again, unless the interpolation is restarted
