@@ -1,4 +1,4 @@
-# FlexiOperations : QuaternionOp
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : QuaternionOp
 ## Declaration
 ```cs
 public static Quaternion QuaternionOp(Quaternion a, Quaternion b, float t)
