@@ -1,4 +1,4 @@
-# FlexiEvent : Pack
+# [Flexi](../Docs.md) : [FlexiEvent](FlexiEvent.md) : Pack
 ## Declaration
 ```cs
 public static FlexiEvent[] Pack(params FlexiEvent[] events)
