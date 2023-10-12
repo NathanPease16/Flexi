@@ -1,4 +1,4 @@
-# Flexi : Cancel
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : Cancel
 ## Declaration
 ```cs
 public static void Cancel(int id)
