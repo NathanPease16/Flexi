@@ -1,4 +1,4 @@
-# Flexi : InterpolateGeneric\<T, Q>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateGeneric\<T, Q>
 ## Declaration
 ```cs
 public static int InterpolateGeneric<T, Q>(Q target, string property, Operation<T> op, Distance<T> dist, FlexiKeyFrame<T>[] keyFrames)
