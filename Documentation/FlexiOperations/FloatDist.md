@@ -1,4 +1,4 @@
-# FlexiOperations : FloatDist
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : FloatDist
 ## Declaration
 ```cs
 public static float FloatDist(float a, float b, float t)
