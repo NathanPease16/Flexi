@@ -12,3 +12,16 @@ Flexi is a lightweight interpolation package designed to be the optimized succes
   - speed, rate
 - Pausing, resuming, and canceling interpolations
 - Interpolation events
+
+## Curves
+| Curve | Description |
+| ----------- | ----------- |
+| linear| A curve representing v = t |
+| quadratic | A curve representing v = t<sup>2</sup> |
+| cubic | A curve representing v = t<sup>3</sup> |
+| bouncing | Dips slightly below 0, linearly increases past 1, and then settles at 1 |
+| overshoot | Linearly increases past 1 and then settles at 1 |
+| recovery | Dips below 0 and then linearly increases to 1 |
+| easeIn | Eases into a linear line towards 1 |
+| easeOut | Eases out of a linear line towards 1 |
+| easeInOut| Eases into and out of a linear line towards 1 |
