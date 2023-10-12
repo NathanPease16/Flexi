@@ -1,4 +1,4 @@
-# Flexi : Resume
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : Resume
 ## Declaration
 ```cs
 public static void Resume(int id)
