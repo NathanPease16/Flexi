@@ -17,8 +17,8 @@ Flexi is a lightweight interpolation package designed to be the optimized, featu
 ## Classes
 | Class | Description
 | - | - |
-| [Flexi](Flexi.md) | Main class for executing and performing operations on interpolations |
-| [FlexiKeyFrame](FlexiKeyFrame.md) | Stores data for key frames in an interpolation |
-| [FlexiCurves](FlexiCurves.md) | Stores pre-defined movement curves for ease of use |
-| [FlexiEvent](FlexiEvent.md) | C# Event implementation for use with Flexi interpolations |
-| [FlexiOperations](FlexiOperations.md) | Native implementations of operations for each data type |
+| [Flexi](Flexi/Flexi.md) | Main class for executing and performing operations on interpolations |
+| [FlexiKeyFrame](FlexiKeyFrame/FlexiKeyFrame.md) | Stores data for key frames in an interpolation |
+| [FlexiCurves](FlexiCurves/FlexiCurves.md) | Stores pre-defined movement curves for ease of use |
+| [FlexiEvent](FlexiEvent/FlexiEvent.md) | C# Event implementation for use with Flexi interpolations |
+| [FlexiOperations](FlextiOperations/FlexiOperations.md) | Native implementations of operations for each data type |
