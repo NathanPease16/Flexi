@@ -4,9 +4,9 @@ C# Event implementation for use with Flexi interpolations
 ## Constructors
 | Constructor | Description |
 | - | - |
-| [FlexiEvent](FlexiEvent.md#Constructors) | Constructs a new FlexiEvent invoked at invocationPercentage percent through the interpolation |
+| [FlexiEvent](FlexiEvent.md#FlexiEvent) | Constructs a new FlexiEvent invoked at invocationPercentage percent through the interpolation |
 
-## Constructors
+## FlexiEvent
 ```cs
 public FlexiEvent(float invocationPercentage)
 ```
