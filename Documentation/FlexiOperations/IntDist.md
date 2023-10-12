@@ -1,7 +1,7 @@
 # FlexiOperations : IntDist
 ## Declaration
 ```cs
-public static float intOp(int a, int b, float t)
+public static float IntDist(int a, int b, float t)
 ```
 
 ## Parameters
