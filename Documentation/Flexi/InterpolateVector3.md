@@ -13,7 +13,7 @@ public static int InterpolateVector3<T>(T target, string property, Vector3 initi
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | FlexiKeyFrame<Vector3>[] | The key frames to interpolate between |
+| keyFrames | FlexiKeyFrame\<Vector3>[] | The key frames to interpolate between |
 | initial | Vector3 | The initial value of the interpolaiton |
 | final | Vector3 | The final value of the interpolation |
 | time | float | The length of the interpolation |
