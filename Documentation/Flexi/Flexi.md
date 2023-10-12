@@ -7,6 +7,11 @@ Main class for executing and performing operations on interpolations
 | Operation | delegate T Operation\<T> (T a, T b, float t) | Delegate for the linear interpolation operation that will be applied to a data structure of type T |
 | Distance | delegate float Distance\<T>(T a, T b) | Delegate for calculating the distance between two instances of a data structure of type T |
 
+## Public Enums
+| Enum | Description |
+| - | - |
+| Rate | How the interpolation's time should function |
+
 ## Static Methods
 | Method | Return Type | Description |
 | - | - | - |
