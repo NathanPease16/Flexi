@@ -1,4 +1,4 @@
-# Flexi : Paused
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : Paused
 ## Declaration
 ```cs
 public static bool Paused(int id)
