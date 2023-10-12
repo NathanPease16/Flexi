@@ -13,7 +13,7 @@ public static int InterpolateColor<T>(T target, string property, Color initial, 
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | FlexiKeyFrame<Color>[] | The key frames to interpolate between |
+| keyFrames | FlexiKeyFrame\<Color>[] | The key frames to interpolate between |
 | initial | Color | The initial value of the interpolaiton |
 | final | Color | The final value of the interpolation |
 | time | float | The length of the interpolation |
