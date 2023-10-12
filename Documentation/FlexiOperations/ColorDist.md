@@ -1,7 +1,7 @@
-# FlexiOperations : ColorOp
+# FlexiOperations : ColorDist
 ## Declaration
 ```cs
-public static Color ColorOp(Color a, Color b, float t)
+public static float ColorOp(Color a, Color b, float t)
 ```
 
 ## Parameters
@@ -9,9 +9,9 @@ public static Color ColorOp(Color a, Color b, float t)
 | - | - | - |
 | a | Color | The first Color |
 | b | Color | The second Color |
-| t | float | Colorerpolation value |
 
 ## Returns
-The interpolated value
+The distance between the two Colors
 
 ## Description
+Calculates and returns the distance between `a` and `b`
