@@ -18,4 +18,4 @@ Stores data for key frames in an interpolation
 ## Static Methods
 | Method | Return Type | Description |
 | - | - | - |
-| CreatePair<Q> | FlexiKeyFrame<Q>[] | Creates an array of FlexiKeyFrames with a size of 2 using the given data |
+| CreatePair\<Q> | FlexiKeyFrame\<Q>[] | Creates an array of FlexiKeyFrames with a size of 2 using the given data |
