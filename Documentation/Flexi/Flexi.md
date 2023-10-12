@@ -1,4 +1,4 @@
-# Flexi Documentation
+# [Flexi](..Docs.md) : Flexi
 
 ## Public Delegates
 | Delegate | Declaration | Description |
