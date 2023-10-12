@@ -13,7 +13,7 @@ public static int InterpolateFloat<T>(T target, string property, float initial, 
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | FlexiKeyFrame<float>[] | The key frames to interpolate between |
+| keyFrames | FlexiKeyFrame\<float>[] | The key frames to interpolate between |
 | initial | float | The initial value of the interpolaiton |
 | final | float | The final value of the interpolation |
 | time | float | The length of the interpolation |
