@@ -10,7 +10,7 @@ Main class for executing and performing operations on interpolations
 ## Public Enums
 | Enum | Description |
 | - | - |
-| Rate | How the interpolation's time should function |
+| [Rate](Rate.md) | How the interpolation's time should function |
 
 ## Static Methods
 | Method | Return Type | Description |
