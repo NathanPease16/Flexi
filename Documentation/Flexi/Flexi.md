@@ -22,11 +22,11 @@
 | [InterpolateQuaternion](InterpolateQuaternion.md) | int | Interpolates a Quaternion between each specified key frame |
 | [InterpolateColor](InterpolateColor.md) | int | Interpolates a Color between each specified key frame |
 | [InterpolateGeneric](InterpolateGeneric.md) | int | Interpolates any data structure between each specified key frame |
-| Exists | bool | Whether or not an interpolation with an ID of `id` exists |
-| Paused | bool | If the interpolation with ID `id` is paused or not |
-| Pause | void | Pauses the interpolation with ID `id` |
-| Resume | void | Resumes the interpolation with ID `id` |
-| Cancel | void | Cancels the interpolation with ID `id` |
+| [Exists](Exists.md) | bool | Whether or not an interpolation with an ID of `id` exists |
+| [Paused](Paused.md) | bool | If the interpolation with ID `id` is paused or not |
+| [Pause](Pause.md) | void | Pauses the interpolation with ID `id` |
+| [Resume](Resume.md) | void | Resumes the interpolation with ID `id` |
+| [Cancel](Cancel.md) | void | Cancels the interpolation with ID `id` |
 
 ## Description
 Handles the starting, stopping, and pausing of interpolations. Interpolations are represented as an array of [FlexiKeyFrames](../FlexiKeyFrame/FlexiKeyFrame.md) that are iterated through in a coroutine
