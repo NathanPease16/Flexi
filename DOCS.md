@@ -15,7 +15,7 @@ Flexi is a lightweight interpolation package designed to be the optimized succes
 
 ## Curves
 | Curve | Description |
-| ----------- | ----------- |
+| - | - |
 | linear| A curve representing v = t |
 | quadratic | A curve representing v = t<sup>2</sup> |
 | cubic | A curve representing v = t<sup>3</sup> |
@@ -25,3 +25,16 @@ Flexi is a lightweight interpolation package designed to be the optimized succes
 | easeIn | Eases into a linear line towards 1 |
 | easeOut | Eases out of a linear line towards 1 |
 | easeInOut| Eases into and out of a linear line towards 1 |
+
+## Methods
+| Method | Description |
+| - | - |
+| InterpolateInt | Interpolates an integer from initial to final, rounding to the nearest int each frame |
+| InterpolateFloat | Interpolates a float from initial to final |
+| InterpolateVector2 | Interpolates a Vector2 from initial to final |
+| InterpolateVector3 | Interpolates a Vector3 from initial to final |
+| InterpolateVector4 | Interpolates a Vector4 from initial to final |
+| InterpolateQuaternion | Interpolates a Quaternion from initial to final using eulerAngles |
+| InterpolateColor | Interpolates a Color from initial to final |
+| InterpolateGeneric | Interpolates a Generic data type from intial to final using the specified Operator and Distance methods |
+| Exists | Whether or not a
