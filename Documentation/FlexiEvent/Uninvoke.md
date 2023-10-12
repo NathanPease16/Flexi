@@ -1,4 +1,4 @@
-# FlexiEvent : Uninvoke
+# [Flexi](../Docs.md) : [FlexiEvent](FlexiEvent.md) : Uninvoke
 ## Declaration
 ```cs
 public void Uninvoke()
