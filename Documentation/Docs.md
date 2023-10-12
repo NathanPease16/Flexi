@@ -1,4 +1,4 @@
-# Flexi Documentation
+# Flexi
 Flexi is a lightweight interpolation package designed to be the optimized, feature-rich successor to WiggleWarp
 
 ## Features
