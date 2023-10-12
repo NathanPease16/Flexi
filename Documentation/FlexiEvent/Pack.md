@@ -9,5 +9,8 @@ public static FlexiEvent[] Pack(params FlexiEvent[] events)
 | - | - | - |
 | events | FlexiEvent[] | All of the events to be packed into an array |
 
+## Returns
+The FlexiEvents packed into an array
+
 ## Description
 Packs all given FlexiEvents into an array of FlexiEvents
