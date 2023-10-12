@@ -1,4 +1,4 @@
-# FlexiOperations : Vector2Dist
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : Vector2Dist
 ## Declaration
 ```cs
 public static float Vector2Dist(Vector2 a, Vector2 b, float t)
