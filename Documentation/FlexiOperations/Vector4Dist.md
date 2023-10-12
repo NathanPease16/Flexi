@@ -1,7 +1,7 @@
 # FlexiOperations : Vector4Dist
 ## Declaration
 ```cs
-public static float Vector4Op(Vector4 a, Vector4 b, float t)
+public static float Vector4Dist(Vector4 a, Vector4 b, float t)
 ```
 
 ## Parameters
