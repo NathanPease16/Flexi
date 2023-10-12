@@ -1,4 +1,4 @@
-# FlexiEvent : Invoke
+# [Flexi](../Docs.md) : [FlexiEvent](FlexiEvent.md) : Invoke
 ## Declaration
 ```cs
 public void Invoke(float percentage)
