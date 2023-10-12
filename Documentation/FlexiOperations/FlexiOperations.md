@@ -1,4 +1,4 @@
-# FlexiOperations Documentation
+# [Flexi](../Docs.md) : FlexiOperations
 
 ## Static Methods
 | Method | Return Type | Description |
