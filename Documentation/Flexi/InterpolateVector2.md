@@ -27,6 +27,6 @@ The ID of the interpolation
 ## Description
 Interpolates between all of the key frames, applying the changes each frame to `property` on `target`
 
-Declaration #2 constructs a new FlexiKeyFrame array of type Vector2 using [FlexiKeyFrame.CreatePair\<Q>](../FlexiKeyFrame/CreatePairQ)
+Declaration #2 constructs a new FlexiKeyFrame array of type Vector2 using [FlexiKeyFrame.CreatePair\<Q>](../FlexiKeyFrame/CreatePairQ.md)
 
 Acts as a Facade Method for [InterpolateGeneric](InterpolateGeneric.md), visit documentation on [InterpolateGeneric](InterpolateGeneric.md) for more information on how interpolations work behind the scenes
