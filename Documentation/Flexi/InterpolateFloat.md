@@ -1,4 +1,4 @@
-# Flexi : InterpolateFloat\<T>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateFloat\<T>
 ## Declaration #1
 ```cs
 public static int InterpolateFloat<T>(T target, string property, FlexiKeyFrame<float>[] keyFrames)
