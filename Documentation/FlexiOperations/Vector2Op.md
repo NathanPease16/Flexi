@@ -1,4 +1,4 @@
-# FlexiOperations : Vector2Op
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : Vector2Op
 ## Declaration
 ```cs
 public static Vector2 Vector2Op(Vector2 a, Vector2 b, float t)
