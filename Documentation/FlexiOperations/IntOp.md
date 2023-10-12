@@ -1,4 +1,4 @@
-# FlexiOperations : IntOp
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : IntOp
 ## Declaration
 ```cs
 public static int intOp(int a, int b, float t)
