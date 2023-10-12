@@ -1,7 +1,7 @@
 # FlexiOperations : FloatDist
 ## Declaration
 ```cs
-public static float floatOp(float a, float b, float t)
+public static float FloatDist(float a, float b, float t)
 ```
 
 ## Parameters
