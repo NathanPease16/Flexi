@@ -1,4 +1,4 @@
-# FlexiOperations : QuaternionDist
+# [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : QuaternionDist
 ## Declaration
 ```cs
 public static float QuaternionDist(Quaternion a, Quaternion b, float t)
