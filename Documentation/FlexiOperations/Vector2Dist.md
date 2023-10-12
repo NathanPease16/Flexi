@@ -1,17 +1,17 @@
-# FlexiOperations : IntOp
+# FlexiOperations : Vector2Dist
 ## Declaration
 ```cs
-public static int IntOp(int a, int b, float t) => (int)Mathf.LerpUnclamped(a, b, t);
+public static float Vector2Op(Vector2 a, Vector2 b, float t)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| a | int | The first int |
-| b | int | The second int |
-| t | float | Interpolation value |
+| a | Vector2 | The first Vector2 |
+| b | Vector2 | The second Vector2 |
 
 ## Returns
-The interpolated value
+The distance between the two Vector2s
 
 ## Description
+Calculates and returns the distance between `a` and `b`
