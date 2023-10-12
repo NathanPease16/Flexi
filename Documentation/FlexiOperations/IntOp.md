@@ -1,4 +1,4 @@
-# FlexiOperations : intOp
+# FlexiOperations : IntOp
 ## Declaration
 ```cs
 public static int intOp(int a, int b, float t)
