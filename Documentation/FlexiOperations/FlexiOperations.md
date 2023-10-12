@@ -1,5 +1,4 @@
 # FlexiOperations Documentation
-Native implementations of operations for each data type
 
 ## Static Methods
 | Method | Return Type | Description |
@@ -18,3 +17,6 @@ Native implementations of operations for each data type
 | [Vector4Dist](Vector4Dist.md) | float | Calculates the distance between two Vector4s |
 | [QuaternionDist](QuaternionDist.md) | float | Calculates the distance between two Quaternions |
 | [ColorDist](ColorDist.md) | float | Calculates the distance between two Colors | 
+
+## Description
+Provides native implementations of operations on common data types
