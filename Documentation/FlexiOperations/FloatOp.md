@@ -1,7 +1,7 @@
 # [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : FloatOp
 ## Declaration
 ```cs
-public static float floatOp(float a, float b, float t)
+public static float FloatOp(float a, float b, float t)
 ```
 
 ## Parameters

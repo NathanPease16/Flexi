@@ -1,7 +1,7 @@
 # [Flexi](../Docs.md) : [FlexiOperations](FlexiOperations.md) : IntOp
 ## Declaration
 ```cs
-public static int intOp(int a, int b, float t)
+public static int IntOp(int a, int b, float t)
 ```
 
 ## Parameters

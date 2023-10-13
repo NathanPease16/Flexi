@@ -16,7 +16,7 @@ public enum Rate
 public class Flexi : MonoBehaviour
 {   
     // Delegates
-    public delegate T Operation<T>(T a, T b, float t);
+    public delegate T Interpolate<T>(T a, T b, float t);
     public delegate float Distance<T>(T a, T b);
 
     // Interpolation Instances
@@ -52,7 +52,7 @@ public class Flexi : MonoBehaviour
     /// <typeparam name="T">The data type to interpolate</typeparam>
     /// <typeparam name="Q">The type of target</typeparam>
     /// <returns>The ID of the interpolation</returns>
-    public static int InterpolateGeneric<T, Q>(Q target, string property, Operation<T> op, Distance<T> dist, 
+    public static int InterpolateGeneric<T, Q>(Q target, string property, Interpolate<T> op, Distance<T> dist, 
                                                FlexiKeyFrame<T>[] keyFrames)
     {
         // Initialize the Flexi GameObject if not already one
@@ -78,7 +78,7 @@ public class Flexi : MonoBehaviour
         _currentId++;
         
         // Start the new coroutine interpolation
-        Coroutine routine = _instance.StartCoroutine(_instance.Interpolate(target, info, op, dist, keyFrames, _currentId));
+        Coroutine routine = _instance.StartCoroutine(_instance.Interpolation(target, info, op, dist, keyFrames, _currentId));
         _routines.Add(_currentId, routine);
         return _currentId;
     }
@@ -404,7 +404,7 @@ public class Flexi : MonoBehaviour
     }
     #endregion
 
-    private IEnumerator Interpolate<T, Q>(Q target, PropertyInfo info, Operation<T> operation, Distance<T> distance, 
+    private IEnumerator Interpolation<T, Q>(Q target, PropertyInfo info, Interpolate<T> operation, Distance<T> distance, 
                                           FlexiKeyFrame<T>[] keyFrames, int id)
     {
         // Loop through each key frame except for last

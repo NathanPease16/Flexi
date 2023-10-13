@@ -1,10 +1,11 @@
 # [Flexi](../Docs.md) : Flexi
+<sub><sup>[Source](../../Source/Flexi.cs)</sup></sub>
 
 ## Public Delegates
-| Delegate | Declaration | Description |
-| - | - | - |
-| Operation | delegate T Operation\<T> (T a, T b, float t) | Delegate for the linear interpolation operation that will be applied to a data structure of type T |
-| Distance | delegate float Distance\<T>(T a, T b) | Delegate for calculating the distance between two instances of a data structure of type T |
+| Delegate | Description |
+| - | - |
+| [Interpolate](Interpolate.md) | Delegate for the linear interpolation operation that will be applied to a data structure of type T |
+| [Distance](Distance.md) | Delegate for calculating the distance between two instances of a data structure of type T |
 
 ## Public Enums
 | Enum | Description |

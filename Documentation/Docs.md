@@ -8,9 +8,9 @@ Flexi is a lightweight interpolation package designed to be the optimized, featu
 - 9 pre-defined [movement curves](FlexiCurves/FlexiCurves.md)
   - linear, quadratic, cubic, bouncing, overshoot, recovery, ease-in, ease-out, ease-in-out
 - Support for [custom movement curves](FlexiKeyFrame/FlexiKeyFrameConstructor.md)
-- 2 [rate](Flexi/Rate.md) types
+- 2 [rate types](Flexi/Rate.md)
   - time, speed
-- Pausing, resuming, and canceling interpolations
+- Pausing, resuming, and canceling [interpolations](Flexi/Flexi.md)
 - [Interpolation events](FlexiEvent/FlexiEvent.md)
 - [Interpolation with key frames](FlexiKeyFrame/FlexiKeyFrame.md)
 
@@ -18,7 +18,7 @@ Flexi is a lightweight interpolation package designed to be the optimized, featu
 | Class | Description
 | - | - |
 | [Flexi](Flexi/Flexi.md) | Main class for executing and performing operations on interpolations |
-| [FlexiKeyFrame](FlexiKeyFrame/FlexiKeyFrame.md) | Stores data for a key frame in an interpolation |
+| [FlexiKeyFrame\<T>](FlexiKeyFrame/FlexiKeyFrame.md) | Stores data for a key frame in an interpolation |
 | [FlexiCurves](FlexiCurves/FlexiCurves.md) | Stores pre-defined movement curves for ease of use |
 | [FlexiEvent](FlexiEvent/FlexiEvent.md) | C# Event implementation for use with Flexi interpolations |
 | [FlexiOperations](FlexiOperations/FlexiOperations.md) | Native implementations of operations for each supported data type |

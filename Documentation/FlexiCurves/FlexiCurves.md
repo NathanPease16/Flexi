@@ -1,4 +1,5 @@
 # [Flexi](../Docs.md) : FlexiCurves
+<sub><sup>[Source](../../Source/FlexiCurves.cs)</sup></sub>
 
 ## Public Fields
 | Property | Type | Description |
