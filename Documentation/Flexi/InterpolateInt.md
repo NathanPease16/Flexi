@@ -18,7 +18,7 @@ public static int InterpolateInt<T>(T target, string property, int initial, int 
 | final | int | The final value of the interpolation |
 | time | float | The length of the interpolation |
 | curve | AnimationCurve | The movement curve for the interpolation |
-| rate | [Rate](Rate.md) | The movement type of the interpolation |
+| rate | [Rate](Rate.md) | The movement rate type of the interpolation |
 | events | [FlexiEvent](../FlexiEvent/FlexiEvent.md)[] | Events to be invoked during the interpolation |
 
 ## Returns
