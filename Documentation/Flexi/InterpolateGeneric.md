@@ -1,17 +1,17 @@
-# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateGeneric\<T, Q>
+# [Flexi](../Docs.md) : [Flexi](Flexi.md) : InterpolateGeneric<T, I>
 ## Declaration
 ```cs
-public static int InterpolateGeneric<T, Q>(Q target, string property, Interpolate<T> op, Distance<T> dist, FlexiKeyFrame<T>[] keyFrames)
+public static int InterpolateGeneric<T, I>(T target, string property, Interpolate<I> op, Distance<I> dist, FlexiKeyFrame<I>[] keyFrames)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| target | Q | The object to search for `property` on |
+| target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| op | [Interpolate](Interpolate.md)\<T> | The operation used to calculate linear interpolation at a point `t` |
-| dist | [Distance](Distance.md)\<T> | Method used to calculate distance between two objects of the same type |
-| keyFrames | [FlexiKeyFrame](../FlexiKeyFrame/FlexiKeyFrame.md)\<T>[] | The key frames to interpolate between |
+| op | [Interpolate\<I>](Interpolate.md) | The operation used to calculate linear interpolation at a point `t` |
+| dist | [Distance\<I>](Distance.md) | Method used to calculate distance between two objects of the same type |
+| keyFrames | [FlexiKeyFrame\<I>](../FlexiKeyFrame/FlexiKeyFrame.md)[] | The key frames to interpolate between |
 
 ## Returns
 The ID of the interpolation

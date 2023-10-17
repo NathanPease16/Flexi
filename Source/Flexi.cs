@@ -52,8 +52,8 @@ public class Flexi : MonoBehaviour
     /// <typeparam name="T">The data type to interpolate</typeparam>
     /// <typeparam name="Q">The type of target</typeparam>
     /// <returns>The ID of the interpolation</returns>
-    public static int InterpolateGeneric<T, Q>(Q target, string property, Interpolate<T> op, Distance<T> dist, 
-                                               FlexiKeyFrame<T>[] keyFrames)
+    public static int InterpolateGeneric<T, I>(T target, string property, Interpolate<I> op, Distance<I> dist, 
+                                               FlexiKeyFrame<I>[] keyFrames)
     {
         // Initialize the Flexi GameObject if not already one
         if (_instance == null)
@@ -65,15 +65,15 @@ public class Flexi : MonoBehaviour
                                              "'dist', 'keyFrames'");
 
         // Create the PropertyInfo object to modify the property on target
-        PropertyInfo info = typeof(Q).GetProperty(property);
+        PropertyInfo info = typeof(T).GetProperty(property);
 
         // Make sure info is not null
         if (info == null)
-            throw new MissingMemberException($"Property '{property}' could not be found in type '{typeof(Q)}'");
+            throw new MissingMemberException($"Property '{property}' could not be found in type '{typeof(T)}'");
         // Make sure types match up between the type of property and the type of T
-        if (info.GetValue(target).GetType() != typeof(T))
+        if (info.GetValue(target).GetType() != typeof(I))
             throw new InvalidCastException($"Provided property's type '{info.GetValue(target).GetType()}' does not match" + 
-                                           $" expected type '{typeof(T)}'");
+                                           $" expected type '{typeof(I)}'");
 
         _currentId++;
         
@@ -404,24 +404,24 @@ public class Flexi : MonoBehaviour
     }
     #endregion
 
-    private IEnumerator Interpolation<T, Q>(Q target, PropertyInfo info, Interpolate<T> operation, Distance<T> distance, 
-                                          FlexiKeyFrame<T>[] keyFrames, int id)
+    private IEnumerator Interpolation<T, I>(T target, PropertyInfo info, Interpolate<I> operation, Distance<I> distance, 
+                                          FlexiKeyFrame<I>[] keyFrames, int id)
     {
         // Loop through each key frame except for last
         for (int i = 0; i < keyFrames.Length - 1; i++)
         {
             // Get current and next key frame
-            FlexiKeyFrame<T> initialKeyFrame = keyFrames[i];
-            FlexiKeyFrame<T> finalKeyFrame = keyFrames[i + 1];
+            FlexiKeyFrame<I> initialKeyFrame = keyFrames[i];
+            FlexiKeyFrame<I> finalKeyFrame = keyFrames[i + 1];
 
             // Make sure neither are null
             if (initialKeyFrame == null || finalKeyFrame == null)
                 throw new NullReferenceException("Key frame cannot be null");
 
             // Get their values
-            T initial = initialKeyFrame.Value;
-            T final = finalKeyFrame.Value;
-            T current;
+            I initial = initialKeyFrame.Value;
+            I final = finalKeyFrame.Value;
+            I current;
 
             AnimationCurve curve = initialKeyFrame.Curve;
 

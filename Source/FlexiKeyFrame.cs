@@ -1,6 +1,10 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// Stores data for key frames in an interpolation
+/// </summary>
+/// <typeparam name="T">The type to be interpolated between</typeparam>
 [Serializable]
 public class FlexiKeyFrame<T>
 {
@@ -55,7 +59,7 @@ public class FlexiKeyFrame<T>
     /// <param name="events">The events for the first key frame</param>
     /// <typeparam name="Q">Data type for the FlexiKeyFrame array</typeparam>
     /// <returns></returns>
-    public static FlexiKeyFrame<Q>[] CreatePair<Q>(Q initial, Q final, float time, AnimationCurve curve=null,
+    public static FlexiKeyFrame<K>[] CreatePair<K>(K initial, K final, float time, AnimationCurve curve=null,
                                                 Rate rate=Rate.time, FlexiEvent[] events=null)
     {
         if (initial == null || final == null)
@@ -63,10 +67,10 @@ public class FlexiKeyFrame<T>
         if (time < 0)
             throw new ArgumentException("'time' cannot be less than 0");
 
-        return new FlexiKeyFrame<Q>[] 
+        return new FlexiKeyFrame<K>[] 
         {
-            new FlexiKeyFrame<Q>(initial, time, curve, rate, events),
-            new FlexiKeyFrame<Q>(final)
+            new FlexiKeyFrame<K>(initial, time, curve, rate, events),
+            new FlexiKeyFrame<K>(final)
         };
     }
 
@@ -76,7 +80,7 @@ public class FlexiKeyFrame<T>
     /// <param name="keyFrames">All of the key frames to be packed into an array</param>
     /// <typeparam name="Q">The type of the key frames</typeparam>
     /// <returns>keyFrames</returns>
-    public static FlexiKeyFrame<Q>[] Pack<Q>(params FlexiKeyFrame<Q>[] keyFrames)
+    public static FlexiKeyFrame<K>[] Pack<K>(params FlexiKeyFrame<K>[] keyFrames)
     {
         return keyFrames;
     }

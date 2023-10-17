@@ -18,8 +18,8 @@
 ## Static Methods
 | Method | Return Type | Description |
 | - | - | - |
-| [CreatePair\<Q>](CreatePairQ.md) | FlexiKeyFrame\<Q>[] | Creates an array of FlexiKeyFrames with a size of 2 using the given data |
-| [Pack\<Q>](PackQ.md) | FlexiKeyFrame\<Q>[] | Packs any number of FlexiKeyFrames into an array of FlexiKeyFrames |
+| [CreatePair\<K>](CreatePairK.md) | FlexiKeyFrame\<K>[] | Creates an array of FlexiKeyFrames with a size of 2 using the given data |
+| [Pack\<K>](PackK.md) | FlexiKeyFrame\<K>[] | Packs any number of FlexiKeyFrames into an array of FlexiKeyFrames |
 
 ## Description
 Stores data for key frames in an interpolation. 

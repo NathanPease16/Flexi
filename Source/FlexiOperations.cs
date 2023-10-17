@@ -64,10 +64,10 @@ public static class FlexiOperations
     {
         return new Vector4
         (
-            Mathf.LerpUnclamped(a.w, b.w, t),
             Mathf.LerpUnclamped(a.x, b.x, t),
             Mathf.LerpUnclamped(a.y, b.y, t),
-            Mathf.LerpUnclamped(a.z, b.z, t)
+            Mathf.LerpUnclamped(a.z, b.z, t),
+            Mathf.LerpUnclamped(a.w, b.w, t)
         );
     }
 

@@ -1,12 +1,15 @@
+using UnityEngine;
 using System;
+using UnityEngine.Events;
 
 /// <summary>
 /// An event that can be invoked during an interpolation
 /// </summary>
+[Serializable]
 public class FlexiEvent
 {
-    private event Action _flexiEvent;
-    private float _invocationPercentage; 
+    [SerializeField] private UnityEvent _event;
+    [SerializeField] private float _invokePercent; 
     private bool _invoked;
 
     /// <summary>
@@ -15,7 +18,7 @@ public class FlexiEvent
     /// <param name="invocationPercentage">The time during the interpolation between two key frames the event should be invoked (represented as a decimal percent)</param>
     public FlexiEvent(float invocationPercentage)
     {
-        _invocationPercentage = invocationPercentage;
+        _invokePercent = invocationPercentage;
     }
 
     /// <summary>
@@ -24,9 +27,9 @@ public class FlexiEvent
     /// <param name="percentage">The current percentage through the interpolation</param>
     public void Invoke(float percentage)
     {
-        if (!_invoked && percentage >= _invocationPercentage)
+        if (!_invoked && percentage >= _invokePercent)
         {
-            _flexiEvent?.Invoke();
+            _event?.Invoke();
             _invoked = true;
         }
     }
@@ -55,9 +58,10 @@ public class FlexiEvent
     /// <param name="flexiEvent">The FlexiEvent object newSubscriber will be subscribed to</param>
     /// <param name="newSubscriber">The Action to subscribe to flexiEvent</param>
     /// <returns>flexiEvent</returns>
-    public static FlexiEvent operator +(FlexiEvent flexiEvent, Action newSubscriber)
+    public static FlexiEvent operator +(FlexiEvent flexiEvent, UnityAction newSubscriber)
     {
-        flexiEvent._flexiEvent += newSubscriber;
+        //flexiEvent._flexiEvent += newSubscriber;
+        flexiEvent._event.AddListener(newSubscriber);
         return flexiEvent;
     }
 
@@ -67,9 +71,9 @@ public class FlexiEvent
     /// <param name="flexiEvent">The FlexiEvent object newSubscriber will be unsubscribed from</param>
     /// <param name="oldSubscriber">The Action to unsubscribe from flexiEvent</param>
     /// <returns>flexiEvent</returns>
-    public static FlexiEvent operator -(FlexiEvent flexiEvent, Action oldSubscriber)
+    public static FlexiEvent operator -(FlexiEvent flexiEvent, UnityAction oldSubscriber)
     {
-        flexiEvent._flexiEvent -= oldSubscriber;
+        flexiEvent._event.RemoveListener(oldSubscriber);
         return flexiEvent;
     }
 }

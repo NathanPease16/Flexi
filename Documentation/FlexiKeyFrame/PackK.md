@@ -1,13 +1,13 @@
-# [Flexi](../Docs.md) : [FlexiKeyFrame\<T>](FlexiKeyFrame.md) : Pack\<Q>
+# [Flexi](../Docs.md) : [FlexiKeyFrame\<T>](FlexiKeyFrame.md) : Pack\<K>
 ## Declaration
 ```cs
-public static FlexiKeyFrame<Q>[] Pack<Q>(params FlexiKeyFrame<Q>[] keyFrames)
+public static FlexiKeyFrame<K>[] Pack<K>(params FlexiKeyFrame<K>[] keyFrames)
 ```
 
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| keyFrames | FlexiKeyFrame\<Q>[] | The key frames to be packed into an array |
+| keyFrames | FlexiKeyFrame\<K>[] | The key frames to be packed into an array |
 
 ## Returns
 `keyFrames`
