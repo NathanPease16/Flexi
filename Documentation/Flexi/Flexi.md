@@ -1,5 +1,5 @@
 # [Flexi](../Docs.md) : Flexi
-<sub><sup>[Source](../../Source/Flexi.cs)</sup></sub>
+<sub><sup>[Source Code](../../Source/Flexi.cs)</sup></sub>
 
 ## Public Delegates
 | Delegate | Description |
