@@ -1,5 +1,5 @@
 # [Flexi](../Docs.md) : FlexiKeyFrame\<T>
-<sub><sup>[Source](../../Source/FlexiKeyFrame.cs)</sup></sub>
+<sub><sup>[Source Code](../../Source/FlexiKeyFrame.cs)</sup></sub>
 
 ## Public Properties
 | Property | Type | Description |
