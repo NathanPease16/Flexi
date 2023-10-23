@@ -4,8 +4,8 @@
 ## Public Delegates
 | Delegate | Description |
 | - | - |
-| [Interpolate](Interpolate.md) | Delegate for the linear interpolation operation that will be applied to a data structure of type T |
-| [Distance](Distance.md) | Delegate for calculating the distance between two instances of a data structure of type T |
+| [Interpolate\<I>](Interpolate.md) | Delegate for the linear interpolation operation that will be applied to a data structure of type I |
+| [Distance\<I>](Distance.md) | Delegate for calculating the distance between two instances of a data structure of type I |
 
 ## Public Enums
 | Enum | Description |
