@@ -1,5 +1,5 @@
 # [Flexi](../Docs.md) : FlexiOperations
-<sub><sup>[Source](../../Source/FlexiOperations.cs)</sup></sub>
+<sub><sup>[Source Code](../../Source/FlexiOperations.cs)</sup></sub>
 
 ## Static Methods
 | Method | Return Type | Description |
