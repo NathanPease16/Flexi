@@ -7,7 +7,7 @@ public static FlexiKeyFrame<K>[] Pack<K>(params FlexiKeyFrame<K>[] keyFrames)
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| keyFrames | FlexiKeyFrame\<K>[] | The key frames to be packed into an array |
+| keyFrames | [FlexiKeyFrame\<K>](FlexiKeyFrame.md)[] | The key frames to be packed into an array |
 
 ## Returns
 `keyFrames`
