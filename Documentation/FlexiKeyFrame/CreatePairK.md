@@ -7,8 +7,8 @@ public static FlexiKeyFrame<K>[] CreatePair<K>(K initial, K final, float time, A
 ## Parameters
 | Parameter | Type | Description |
 | - | - | - |
-| initial | Q | The value of the first key frame |
-| final | Q | The value of the second key frame |
+| initial | K | The value of the first key frame |
+| final | K | The value of the second key frame |
 | time | float | The time to interpolate between the first and second key frame |
 | curve | AnimationCurve | The movement curve between the two key frames |
 | rate | Rate | The movement mode between the two key frames |
