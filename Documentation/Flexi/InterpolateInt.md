@@ -13,7 +13,7 @@ public static int InterpolateInt<T>(T target, string property, int initial, int 
 | - | - | - |
 | target | T | The object to search for `property` on |
 | property | string | The property on `target` to modify |
-| keyFrames | [FlexiKeyFrame](../FlexiKeyFrame/FlexiKeyFrame.md)\<int>[] | The key frames to interpolate between |
+| keyFrames | [FlexiKeyFrame\<int>](../FlexiKeyFrame/FlexiKeyFrame.md)[] | The key frames to interpolate between |
 | initial | int | The initial value of the interpolaiton |
 | final | int | The final value of the interpolation |
 | time | float | The length of the interpolation |
@@ -29,4 +29,4 @@ Interpolates between all of the key frames, applying the changes each frame to `
 
 Declaration #2 constructs a new FlexiKeyFrame array of type int using [FlexiKeyFrame.CreatePair\<Q>](../FlexiKeyFrame/CreatePairQ.md)
 
-Acts as a Facade Method for [InterpolateGeneric](InterpolateGeneric.md), visit documentation on [InterpolateGeneric](InterpolateGeneric.md) for more information on how interpolations work behind the scenes
+Acts as a Facade Method for [InterpolateGeneric\<T, I>](InterpolateGeneric.md), visit documentation on [InterpolateGeneric\<T, I>](InterpolateGeneric.md) for more information on how interpolations work behind the scenes
