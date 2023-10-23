@@ -24,5 +24,5 @@ Need help getting started? Check out some of [these tutorials](Tutorials/Tutoria
 | [Flexi](Flexi/Flexi.md) | Main class for executing and performing operations on interpolations |
 | [FlexiKeyFrame\<T>](FlexiKeyFrame/FlexiKeyFrame.md) | Stores data for a key frame in an interpolation |
 | [FlexiCurves](FlexiCurves/FlexiCurves.md) | Stores pre-defined movement curves for ease of use |
-| [FlexiEvent](FlexiEvent/FlexiEvent.md) | C# Event implementation for use with Flexi interpolations |
+| [FlexiEvent](FlexiEvent/FlexiEvent.md) | Events that can be called during a Flexi interpolation |
 | [FlexiOperations](FlexiOperations/FlexiOperations.md) | Native implementations of operations for each supported data type |
