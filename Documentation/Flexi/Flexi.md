@@ -30,4 +30,4 @@
 | [Cancel](Cancel.md) | void | Cancels the interpolation with ID `id` |
 
 ## Description
-Handles the starting, stopping, and pausing of interpolations. Interpolations are represented as an array of [FlexiKeyFrames](../FlexiKeyFrame/FlexiKeyFrame.md) that are iterated through in a coroutine
+Handles the starting, stopping, and pausing of interpolations. Interpolations are represented as an array of [FlexiKeyFrame\<T>s](../FlexiKeyFrame/FlexiKeyFrame.md) that are iterated through in a coroutine
