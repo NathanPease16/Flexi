@@ -11,8 +11,8 @@ public static FlexiKeyFrame<K>[] CreatePair<K>(K initial, K final, float time, A
 | final | K | The value of the second key frame |
 | time | float | The time to interpolate between the first and second key frame |
 | curve | AnimationCurve | The movement curve between the two key frames |
-| rate | Rate | The movement mode between the two key frames |
-| events | FlexiEvent[] | The events for the first key frame |
+| rate | [Rate](../Flexi/Rate.md) | The movement mode between the two key frames |
+| events | [FlexiEvent](../FlexiEvent/FlexiEvent.md)[] | The events for the first key frame |
 
 ## Description
 Creates a pair of key frames as an array using the given data as the values for the key frames

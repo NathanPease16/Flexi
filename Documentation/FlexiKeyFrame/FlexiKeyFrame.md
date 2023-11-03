@@ -13,7 +13,7 @@
 ## Public Constructors
 | Constructor | Description |
 | - | - |
-| [FlexiKeyFrame](FlexiKeyFrameConstructor.md) | Creates a new FlexiKeyFrame object |
+| [FlexiKeyFrame\<T>](FlexiKeyFrameConstructor.md) | Creates a new FlexiKeyFrame object |
 
 ## Static Methods
 | Method | Return Type | Description |
