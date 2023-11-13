@@ -1,6 +1,6 @@
 # Events in Flexi
 
-## What are FlexiEvents?
+## What are Flexi Events?
 During an interpolation, you may want to have code separate from the interpolation to run. This can be achieved through [FlexiEvents](../FlexiEvent/FlexiEvent.md). Generally, events have subscribers (or observers, listeners), and when an event is fired (or invoked), the subscribers will then run their code
 
 In Flexi, you can use [FlexiEvents](../FlexiEvent/FlexiEvent.md) to call code at a certain point in the interpolation between two key frames (relative and represented as a decimal percent)
@@ -52,4 +52,8 @@ public class Example : MonoBehaviour
 }
 ```
 
-This creates a new [FlexiEvent](../FlexiEvent/FlexiEvent.md) that will print out "Half way!" when the the time on the interpolation reaches 100 seconds. This is because the method `Print` was added to `flexiEvent`, and `flexiEvent` was given an invocation period of .5f, which means that the event will be invoked half way through the interpolation. Since `_time` is 200f, it will be invoked at a time of 100f. The reason you use 
+This creates a new [FlexiEvent](../FlexiEvent/FlexiEvent.md) that will print out "Half way!" when the time on the interpolation reaches 100 seconds. This is because the method `Print` was added to `flexiEvent`, and `flexiEvent` was given an invocation period of .5f, which means that the event will be invoked half way through the interpolation. Since `_time` is 200f, it will be invoked at a time of 100f. The reason you use [FlexiEvent.Pack()](../FlexiEvent/Pack.md) is because Flexi interpolations take an array of events, which allows you to invoke multiple events in one interpolation. [FlexiEvent.Pack()](../FlexiEvent/Pack.md) is a useful shorthand that lets you pack any number of [FlexiEvents](../FlexiEvent/FlexiEvent.md) into an array, and is called as by using each event as a separate argument.
+
+Now you're an expert in using Flexi Events, which are incredibly useful when you want something to happen in the middle of an interpolation
+
+To explore all of Flexi's features, you can visit other tutorials [here](Tutorials.md)!
