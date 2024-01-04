@@ -1,4 +1,4 @@
-# Installing Flexi
+# Installing [Flexi](../Docs.md)
 Installing Flexi is an incredibly simple process, and can be done in two ways:
 - (Recommended) Using Unity's package manager to install the most up-to-date version of Flexi
 - Manually downloading the version of Flexi you want from the releases page
