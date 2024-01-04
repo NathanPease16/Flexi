@@ -1,9 +1,9 @@
 # Flexi
 Flexi is a lightweight interpolation package designed to be the optimized, feature-rich successor to WiggleWarp
 
-Don't know how to import Flexi? Try [here](Tutorials/Import.md)
+Need help importing Flexi? Try [this](Tutorials/Import.md)
 
-Need help getting started? Check out some of [these tutorials](Tutorials/Tutorials.md)
+Don't know how to get started? Check out some of [these tutorials](Tutorials/Tutorials.md)
 
 ## Features
 - 7 data types with [native support](FlexiOperations/FlexiOperations.md)

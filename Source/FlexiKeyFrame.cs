@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// Stores data for key frames in an interpolation
+/// Stores data for keyframes in an interpolation
 /// </summary>
 /// <typeparam name="T">The type to be interpolated between</typeparam>
 [Serializable]
