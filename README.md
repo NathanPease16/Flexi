@@ -14,7 +14,7 @@ Don't know how to get started? Check out some of [these tutorials](./Documentati
 - Support for [custom movement curves](./Documentation/FlexiKeyFrame/FlexiKeyFrameConstructor.md)
 - 2 [rate types](./Documentation/Flexi/Rate.md)
   - time, speed
-- Pausing, resuming, and canceling [interpolations](./Documentation/Flexi/Flexi.md)
+- Pausing, resuming, and cancelling [interpolations](./Documentation/Flexi/Flexi.md)
 - [Interpolation events](./Documentation/FlexiEvent/FlexiEvent.md)
 - [Interpolation with key frames](./Documentation/FlexiKeyFrame/FlexiKeyFrame.md)
 
