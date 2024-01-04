@@ -1,6 +1,6 @@
-# Flexi Tutorials
+# [Flexi](../../README.md) Tutorials
 
-## [Importing Flexi](Import.md)
+## [Importing Flexi](Install.md)
 
 ## [Getting Started](GettingStarted.md)
 
