@@ -31,6 +31,9 @@ public class KeyFrameEditor : PropertyDrawer
 
             foreach (SerializedProperty serializedProperty in GetAllProperties(property))
             {
+                if (serializedProperty.displayName.StartsWith("Element"))
+                    continue;
+
                 if (serializedProperty.name == "_curve")
                 {
                     totalHeight += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
@@ -59,6 +62,9 @@ public class KeyFrameEditor : PropertyDrawer
 
         foreach (SerializedProperty serializedProperty in GetAllProperties(property))
         {
+            if (serializedProperty.displayName.StartsWith("Element"))
+                continue;
+
             if (serializedProperty.name == "_curve")
             {
                 _curveMode = (CurveType)EditorGUI.EnumPopup(position, "Curve Type", _curveMode);
