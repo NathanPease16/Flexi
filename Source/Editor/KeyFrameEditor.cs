@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public enum CurveType
 {
@@ -67,7 +68,12 @@ public class KeyFrameEditor : PropertyDrawer
 
             if (serializedProperty.name == "_curve")
             {
-                _curveMode = (CurveType)EditorGUI.EnumPopup(position, "Curve Type", _curveMode);
+                string path = property.propertyPath + property.serializedObject.targetObject.GetInstanceID();
+                var curve = (CurveType)EditorPrefs.GetInt(path, (int)CurveType.Custom);
+                
+                _curveMode = (CurveType)EditorGUI.EnumPopup(position, "Curve Type", curve);
+                EditorPrefs.SetInt(path, (int)_curveMode);
+
                 position.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 
                 if (_curveMode != CurveType.Custom)
@@ -93,6 +99,7 @@ public class KeyFrameEditor : PropertyDrawer
                     continue;
                 }
             }
+
             EditorGUI.PropertyField(position, serializedProperty);
             position.y += EditorGUI.GetPropertyHeight(serializedProperty) + EditorGUIUtility.standardVerticalSpacing;
         }
